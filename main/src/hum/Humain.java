@@ -15,4 +15,9 @@ public class Humain {
     public String getNom() {
         return nom;
     }
+
+    //setNom
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
 }

@@ -9,4 +9,9 @@ public class Visiteur extends Humain
         super(nom);
         this.numero = numero;
     }
+
+    //méthodes
+    public int getNumero() {
+        return numero;
+    }
 }

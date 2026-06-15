@@ -1,5 +1,7 @@
 package mains;
 
+import dino.Carnivore;
+import dino.Herbivore;
 import espaces.Enclos;
 import espaces.Zoo;
 
@@ -7,7 +9,12 @@ import espaces.Zoo;
 public class test_zoo_enclos {
     public static void main(String[] args){
         Zoo z = new Zoo();
-        Zoo<Enclos>=
+        Enclos<Carnivore> enclos1 = new Enclos<>();
+        Enclos<Herbivore> enclos2 = new Enclos<>();
+
+        //Ajouter les enclos au zoo
+        z.ajouterEnclos(enclos1);
+        z.ajouterEnclos(enclos2);
 
     }
 }

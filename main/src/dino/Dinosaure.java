@@ -32,4 +32,8 @@ public abstract class Dinosaure {
     public Enclos<? extends Dinosaure> getEnclos(){
         return enclos;
     }
+
+    public void setEnclos(Enclos<? extends Dinosaure> enclos) {
+        this.enclos = enclos;
+    }
 }

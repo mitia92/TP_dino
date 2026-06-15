@@ -7,6 +7,6 @@ import espaces.Enclos;
 public class test_enclos {
 
     public static void main(String[] args){
-        Enclos<Herbivore> e = new Enclos<Herbivore>(1, new Herbivore(10), 10);
+        Enclos<Herbivore> e = new Enclos<Herbivore>(1, new Herbivore(10));
     }
 }
